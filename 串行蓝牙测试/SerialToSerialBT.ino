@@ -1,3 +1,4 @@
+//通过蓝牙进行串行通信（模拟的方法）
 #include "BluetoothSerial.h"
 BluetoothSerial SerialBT;
 
