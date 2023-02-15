@@ -49,3 +49,16 @@ void Motor::reverse(){
     _en=-_en;
     this->run();
 }
+
+/*
+ * 停转函数:电机停转函数
+ */
+void Motor::stop{
+    this->run(0);
+}
+
+void Motor::run(int min,int max,int en){
+    en = map(en,-255,255,min,max);
+    this->run(en);
+}
+    
